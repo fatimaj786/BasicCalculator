@@ -18,7 +18,7 @@ elif getOperator == 'Subtraction':
 elif getOperator == 'Multiplication':
     result = getFNumber * getSNumber
 elif getOperator == 'Division':
-    if number2 != 0:
+    if getSNumber != 0:
         result = getFNumber / getSNumber
     else:
         result = 'Error! Division by zero.'
